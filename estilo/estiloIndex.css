@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fuente';
-  src: url("/fuentes/ReenieBeanie-Regular.ttf");
+  src: url('/fuentes/ReenieBeanie-Regular.ttf');
 }
 
 *{
@@ -14,7 +14,7 @@ body{
     width: 100%;
     height: auto;
     /*background-color: #f98093;*/
-    background-image: url("/assets/fondo_body.png");
+    background-image: url('/assets/fondo_body.png');
     background-repeat: repeat;
     background-size: contain;
     backdrop-filter: contrast(70%);
@@ -85,7 +85,7 @@ li a{
 #inicio_portafolio{
     width: 70%;
     margin: 20px auto;
-    background-image: url("/assets/fondo_titulo.png");
+    background-image: url('/assets/fondo_titulo.png');
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
@@ -251,7 +251,7 @@ li a{
 #cont_contacto{
     /*background-color: #f4fdce;*/
 
-    background-image: url("/assets/fondo_titulo.png");
+    background-image: url('/assets/fondo_titulo.png');
     background-repeat: no-repeat;
     background-size: cover;
 
