@@ -1,7 +1,8 @@
 @font-face {
-    font-family: "fuente";
-    src: url("../fuentes/ReenieBeanie-Regular.ttf");
+  font-family: 'fuente';
+  src: url("../fuentes/ReenieBeanie-Regular.ttf");
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -182,7 +183,7 @@ li a{
 }
 
 .cont_trabajos_img{
-    width: 150%;
+    width: 100%;
     height: 50vh;
     margin: 10px;
     overflow: scroll;
@@ -218,18 +219,18 @@ li a{
     background-color: #f4fdce;
     border-radius: 25px;
     margin: 20px auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     text-align: center;
 }
 
 
 .cont_img{
-    width: 50%;
-    text-align: center;
-    padding: 10px;
+    width: 70%;
+    padding: 20px;
     align-content: center;
-    text-align: end;
-    margin-left: 25vh;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .cont_img img{
@@ -239,9 +240,8 @@ li a{
 }
 
 .cont_descripción{
-    width: 50%;
+    width: 70%;
     align-content: center;
-    margin-right: 25vh;
     text-align: justify;
     padding: 25px;
 }
@@ -306,4 +306,61 @@ footer{
     margin: 0 auto;
     justify-content:center ;
     color: #f4fdce;
+}
+
+
+@media (max-width: 768px) {
+    .cont_info{
+        display: block;
+    }
+    .cont_trabajos_img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sub_contenedor{
+        padding: 0;
+    }
+
+    #cont_sobremi{
+        display: block;
+    }
+
+    .cont_img{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .cont_descripción{
+        width: 70%;
+        text-align: justify;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .cont_descripción h1{
+        text-align: center;
+    }
+    .cont_descripción h2{
+        text-align: center;
+    }
+
+    .cont_datos{
+        font-size: medium;
+    }
+
+    footer{
+        font-size: small;
+    }
+
+    #mis_redes{
+        margin-bottom: 15px;
+    }
+
+    li a{
+        font-size: medium;
+    }
+
 }
