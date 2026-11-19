@@ -14,7 +14,7 @@ body{
     width: 100%;
     height: auto;
     /*background-color: #f98093;*/
-    background-image: url('assets/fondo_body.png');
+    background-image: url("assets/fondo_body.png");
     background-repeat: repeat;
     background-size: contain;
     backdrop-filter: contrast(70%);
